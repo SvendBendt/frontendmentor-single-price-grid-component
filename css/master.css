@@ -1,14 +1,60 @@
-.join {}
+body{
+  font-size: 62.5%;
+  background-color: hsl(204, 43%, 93%);
+  color:hsl(0, 0%, 100%);
+  font-family: 'Karla', sans-serif;
+  max-width:375px;
+}
 
-.mbg {}
+.join {
+  font-size:1.4rem;
+  background-color: hsl(0, 0%, 100%);
+  color:hsl(218, 22%, 67%);
+  min-height:23.9rem
+}
 
-.monthly {}
+.join-headline{
+  color: hsl(179, 62%, 43%);
+  font-weight:700;
+  font-size:2rem;
+}
 
-.signup-button {}
+.mbg {
+  color: hsl(71, 73%, 54%);
+  font-size:1.5rem;
+}
 
-.price {}
+.monthly {
+  background-color: hsl(179, 62%, 43%);
+  min-height:22.7rem;
+}
 
-.why {}
+.monthly-headline{
+}
+
+.price {
+  font-size:3.2rem;
+  font-weight:bold;
+  letter-spacing: -0.4;
+
+}
+
+.permonth{
+color:  hsl(0, 0%, 50%);
+font-size:1.6rem;
+letter-spacing:-0.2;
+}
+
+.signup-button {
+  background-color: hsl(71, 73%, 54%);
+}
+
+
+
+.why {
+  background-color: hsla(179, 62%, 43%, 0.897);
+  height:22.7rem;
+}
 
 .attribution {
   font-size: 11px;
