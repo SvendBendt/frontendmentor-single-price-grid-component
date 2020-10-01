@@ -1,59 +1,94 @@
-body{
+html{
   font-size: 62.5%;
+}
+
+body {
   background-color: hsl(204, 43%, 93%);
-  color:hsl(0, 0%, 100%);
+}
+
+section {
   font-family: 'Karla', sans-serif;
-  max-width:375px;
+  /*Footer attribution?*/
+  color: hsl(0, 0%, 100%);
+  max-width: 311px;
+  margin: 0 auto;
 }
 
 .join {
-  font-size:1.4rem;
+  letter-spacing: -0.0175rem;
   background-color: hsl(0, 0%, 100%);
-  color:hsl(218, 22%, 67%);
-  min-height:23.9rem
-}
+  margin-top:7.2rem;
+  padding: 2.8rem 7.63% 3rem;
+  }
 
-.join-headline{
+.join h1 {
   color: hsl(179, 62%, 43%);
-  font-weight:700;
-  font-size:2rem;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing:-0.025rem;
+  margin: 0 0 2.5rem;
 }
 
-.mbg {
+.join-content{
+  font-size: 1.4rem;
+  line-height: 1.9;
+  color: hsl(218, 22%, 67%);
+  margin:0;
+}
+
+.moneybg {
   color: hsl(71, 73%, 54%);
-  font-size:1.5rem;
+  font-size: 1.5rem;
+  margin: 0 0 1.6rem;
+  font-weight:700;
+  line-height:133%;
+  letter-spacing:-0.01875rem;
 }
 
 .monthly {
   background-color: hsl(179, 62%, 43%);
-  min-height:22.7rem;
+  padding: 2.5rem 7.63% 3rem;
 }
 
-.monthly-headline{
+.monthly h2 {
+  font-size:1.8rem;
+  letter-spacing: -0.0225rem;
+  margin:0 0 1.7rem;
 }
 
 .price {
-  font-size:3.2rem;
-  font-weight:bold;
-  letter-spacing: -0.4;
-
+  display:inline;
+  color: hsl(0, 0%, 100%);
+  font-size: 3.2rem;
+  font-weight: bold;
+  letter-spacing: -0.04rem;
+  padding-right:1.1rem;
+  margin: 0 0 2.6rem;
 }
 
-.permonth{
-color:  hsl(0, 0%, 50%);
-font-size:1.6rem;
-letter-spacing:-0.2;
+.permonth {
+  display:inline;
+  color: hsl(0, 0%, 50%);
+  font-size: 1.6rem;
+  letter-spacing: -0.02rem;
+  margin:0;
+  vertical-align: 0.5rem;
+}
+
+.monthly-content{
+  font-size:1.6rem;
+  letter-spacing:-0.02rem;
+  line-height:26px;/*PX*/
+  margin: 0.4rem 0 2.6rem;
 }
 
 .signup-button {
   background-color: hsl(71, 73%, 54%);
 }
 
-
-
 .why {
   background-color: hsla(179, 62%, 43%, 0.897);
-  height:22.7rem;
+  height: 22.7rem;
 }
 
 .attribution {
