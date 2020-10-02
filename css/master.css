@@ -1,4 +1,4 @@
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -10,117 +10,104 @@ section {
   font-family: 'Karla', sans-serif;
   /*Footer attribution?*/
   color: hsl(0, 0%, 100%);
-  max-width: 311px;
+  width: 311px;
   margin: 0 auto;
 }
 
 .join {
   letter-spacing: -0.0175rem;
   background-color: hsl(0, 0%, 100%);
-  margin-top:7.2rem;
+  margin-top: 7.2rem;
   padding: 2.8rem 7.63% 3rem;
-  }
+}
 
 .join h1 {
   color: hsl(179, 62%, 43%);
   font-weight: 700;
   font-size: 2rem;
-  letter-spacing:-0.025rem;
+  letter-spacing: -0.025rem;
   margin: 0 0 2.5rem;
 }
 
-.join-content{
+.join-content {
   font-size: 1.4rem;
   line-height: 1.9;
   color: hsl(218, 22%, 67%);
-  margin:0;
+  margin: 0;
 }
 
 .moneybg {
   color: hsl(71, 73%, 54%);
   font-size: 1.5rem;
   margin: 0 0 1.6rem;
-  font-weight:700;
-  line-height:133%;
-  letter-spacing:-0.01875rem;
+  font-weight: 700;
+  line-height: 133%;
+  letter-spacing: -0.01875rem;
 }
 
 .monthly {
+  box-sizing:border-box;;
   background-color: hsl(179, 62%, 43%);
   padding: 2.5rem 7.63% 2.4rem;
 }
 
 .monthly h2 {
-  font-size:1.8rem;
+  font-size: 1.8rem;
   letter-spacing: -0.0225rem;
-  margin:0 0 1.7rem;
+  margin: 0 0 1.7rem;
 }
 
 .price {
-  display:inline;
+  display: inline;
   color: hsl(0, 0%, 100%);
   font-size: 3.2rem;
   font-weight: bold;
   letter-spacing: -0.04rem;
-  padding-right:1.1rem;
+  padding-right: 1.1rem;
   margin: 0 0 2.6rem;
 }
 
 .permonth {
-  display:inline;
+  display: inline;
   color: hsl(0, 0%, 50%);
   font-size: 1.6rem;
   letter-spacing: -0.02rem;
-  margin:0;
+  margin: 0;
   vertical-align: 0.5rem;
 }
 
-.monthly-content{
-  font-size:1.6rem;
-  letter-spacing:-0.02rem;
-  line-height:26px;/*PX*/
+.monthly-content {
+  font-size: 1.6rem;
+  letter-spacing: -0.02rem;
+  line-height: 26px;
+  /*PX*/
   margin: 0.4rem 0 2.7rem;
 }
 
-.shenanigans{
-  width: 263px;
-  height:48px;
-  border-radius: 5px;
-  border-width: 0;
+.signup-button {
   background-color: hsl(71, 73%, 54%);
-  box-shadow:0 4px 4px 0 hsl(0, 0%, 50%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.6rem;
+  width: 263px;
+  height: 48px;
+  border-width: 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 hsl(0, 0%, 50%);
+  transition: box-shadow 500ms;
+  z-index: 2;
 }
 
-.signup-button {
-  position: absolute; /*To enable z-index for .shenanigans*/
-  background-color: hsl(71, 73%, 54%);
-  color:hsl(0, 0%, 100%);
-  font-size:1.6rem;
-  width:263px;
-  height:48px;
-  border-width:0;
-  border-radius:5px;
-  box-shadow:0 4px 4px 0 hsl(0, 0%, 50%);
-  transition: box-shadow 500ms;
-  z-index:2;
-  }
-
-.signup-button:hover{
-  box-shadow:1px 5px 5px 1px hsl(0, 0%, 35%);
+.signup-button:hover {
+  box-shadow: 1px 5px 5px 1px hsl(0, 0%, 35%);
   background-color: hsl(71, 73%, 58%);
 }
 
-.easter-egg{
-  position:absolute;
-  left:50%;
-  margin-left:-100px;
-  font-size:1.6rem;
-  z-index:1;
-
+.signup-button:active {
+  background-color: BLUE;
 }
 
-.signup-button:active{
-  visibility:hidden;
+.signup-button:focus {
+  border-width:15px;
 }
 
 .why {
@@ -128,24 +115,26 @@ section {
   padding: 2.4rem 7.63% 2.3rem;
 }
 
-.why h2{
-  font-size:1.8rem;
+.why h2 {
+  font-size: 1.8rem;
   margin: 0 0 1.7rem;
 }
 
-.why ul{
-  padding:0;
-  margin:0;
+.why ul {
+  padding: 0;
+  margin: 0;
 }
-.why li{
-  padding:0;
+
+.why li {
+  padding: 0;
   list-style-type: none;
-  font-size:1.4rem;
+  font-size: 1.4rem;
   letter-spacing: -0.0175rem;
-  line-height:2rem;
+  line-height: 2rem;
 }
 
 .attribution {
+  clear:both;
   font-size: 11px;
   text-align: center;
 }
@@ -154,8 +143,18 @@ section {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width:800px){
-  body{
-    background-color:green;
+@media screen and (min-width:800px) {
+  section {
+    width: 635px;
+    margin-top:16.3rem;
+  }
+
+.monthly{
+  float:left;
+  width:50%;
+}
+
+  .why {
+
   }
 }
