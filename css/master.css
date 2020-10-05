@@ -4,6 +4,7 @@ html {
 
 body {
   background-color: hsl(204, 43%, 93%);
+  margin:0 auto;
 }
 
 section {
@@ -149,10 +150,32 @@ section {
     margin-top:16.3rem;
   }
 
+.join{
+  padding: 4rem 4rem;
+}
+
+  .join h1{
+    font-size: 2.4rem;
+  }
+
+  .moneybg{
+      font-size:1.8rem;
+      margin: 0 0 1.1rem;
+  }
+
+  .join-content{
+      font-size:1.6rem;
+      line-height: 162%;
+    }
+
+
 .monthly{
   float:left;
   width:50%;
 }
+
+
+
 
   .why {
 
