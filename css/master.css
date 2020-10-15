@@ -1,5 +1,10 @@
 html {
+  box-sizing: border-box;
   font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -13,13 +18,14 @@ section {
   color: hsl(0, 0%, 100%);
   width: 311px;
   margin: 0 auto;
+  box-shadow: 0 4px 4px 0 hsl(0, 0%, 25%);
 }
 
 .join {
   letter-spacing: -0.0175rem;
   background-color: hsl(0, 0%, 100%);
   margin-top: 7.2rem;
-  border-radius: 3px 3px 0 0;
+  border-radius: 8px 8px 0 0;
   padding: 2.8rem 7.63% 3rem;
 }
 
@@ -47,9 +53,11 @@ section {
   letter-spacing: -0.01875rem;
 }
 
+.green-wrapper{
+height:259px;
+}
+
 .monthly {
-  box-sizing: border-box;
-  ;
   background-color: hsl(179, 62%, 43%);
   padding: 2.5rem 7.63% 2.4rem;
 }
@@ -115,7 +123,7 @@ section {
 
 .why {
   background-color: hsla(179, 62%, 43%, 0.775);
-  padding: 2.4rem 7.63% 2.3rem;
+  padding: 2.4rem 7.63% 0;
 }
 
 .why h2 {
@@ -136,6 +144,10 @@ section {
   line-height: 2rem;
 }
 
+footer{
+  clear:both;
+}
+
 .attribution {
   clear: both;
   font-size: 11px;
@@ -153,7 +165,8 @@ section {
   }
 
   .join {
-    padding: 4.1rem 4rem;
+    height: 217px;
+    padding: 4.1rem 4rem 0;
   }
 
   .join h1 {
@@ -173,11 +186,9 @@ section {
 
   .monthly {
     float: left;
-    width: 50%;
     padding: 4rem 4rem 3.8rem;
     border-radius: 0 0 0 3px;
-
-
+    width:31.7rem;
   }
 
   .signup-button {
@@ -185,19 +196,17 @@ section {
   }
 
   .why {
-    padding: 4rem;
+    padding: 4rem 4rem 0;
     border-radius: 0 0 3px 0;
     overflow:hidden;
+    height:259px;
+    width:50%;
   }
-
-/* better way around the collapse issue?
-Best way to ensure equal hight? */
-
 
   .why h2 {
         }
 
   .why li {
-      
+
   }
 }
