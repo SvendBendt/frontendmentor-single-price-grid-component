@@ -55,6 +55,8 @@ section {
 
 .green-wrapper{
 height:259px;
+border-radius: 8px;
+border-color:black;
 }
 
 .monthly {
