@@ -15,7 +15,7 @@ body {
 section {
   font-family: 'Karla', sans-serif;
   color: hsl(0, 0%, 100%);
-  border:0px solid red;
+  border: 0px solid red;
   width: 311px;
   margin: 0 auto;
   box-shadow: 0 4px 8px 0 hsl(0, 0%, 75%);
@@ -39,7 +39,8 @@ section {
 
 .join-content {
   font-size: 1.4rem;
-  line-height: 1.9;  /*Ensret det lort her*/
+  line-height: 1.9;
+  /*Ensret */
   color: hsl(218, 22%, 67%);
   margin: 0;
 }
@@ -51,10 +52,6 @@ section {
   font-weight: 700;
   color: hsl(71, 73%, 54%);
   margin: 0 0 1.6rem;
-}
-
-.green-wrapper{
-
 }
 
 .monthly {
@@ -97,7 +94,7 @@ section {
 .signup-button {
   font-family: 'Karla', sans-serif;
   font-size: 1.6rem;
-  font-weight:700;
+  font-weight: 700;
   background-color: hsl(71, 73%, 54%);
   color: hsl(0, 0%, 100%);
   border-width: 0;
@@ -121,7 +118,7 @@ section {
 
 .why {
   background-color: hsla(179, 62%, 43%, 0.775);
-  padding: 2.4rem 7.63% 0;
+  padding: 2.4rem 7.63% 2.4rem;
 }
 
 .why h2 {
@@ -142,14 +139,14 @@ section {
   padding: 0;
 }
 
-footer{
-  clear:both;
+footer {
+  clear: both;
 }
 
 @media screen and (min-width:800px) {
   section {
     width: 635px;
-    border-radius:9px;
+    border-radius: 9px;
     margin-top: 16.3rem;
   }
 
@@ -163,10 +160,9 @@ footer{
     margin: 0 0 2.3rem;
   }
 
-  .green-wrapper{
-     height:259px;
-
-   }
+  .green-wrapper {
+    height: 259px;
+  }
 
   .moneybg {
     font-size: 1.8rem;
@@ -181,8 +177,8 @@ footer{
   .monthly {
     float: left;
     border-radius: 0 0 0 9px;
-    height:259px;
-    width:50%;
+    height: 259px;
+    width: 50%;
     padding: 4rem 0 0 4.1rem;
   }
 
@@ -191,10 +187,10 @@ footer{
   }
 
   .why {
-    overflow:hidden;
+    overflow: hidden;
     border-radius: 0 0 9px 0;
-    height:259px;
-    width:50%;
+    height: 259px;
+    width: 50%;
     padding: 4rem 0 0 4rem;
   }
 }
