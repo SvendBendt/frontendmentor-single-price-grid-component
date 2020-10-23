@@ -75,14 +75,14 @@ section {
   display: inline;
   color: hsl(0, 0%, 100%);
   margin: 0 0 2.6rem;
-  padding-right: 1.1rem;
+  padding-right: 1rem;
 }
 
 .permonth {
   display: inline;
   font-size: 1.6rem;
   letter-spacing: -0.02rem;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 85%);
   vertical-align: 0.5rem;
   margin: 0;
 }
@@ -91,7 +91,7 @@ section {
   font-size: 1.6rem;
   letter-spacing: -0.02rem;
   line-height: 26px;
-  margin: 0.4rem 0 2.7rem;
+  margin: 0.4rem 0 2.6rem;
 }
 
 .signup-button {
@@ -152,7 +152,7 @@ footer{
 
   .join {
     height: 216px;
-    padding: 4.1rem 4rem 0;
+    padding: 3.9rem 4rem 0;
   }
 
   .join h1 {
@@ -179,7 +179,7 @@ footer{
     border-radius: 0 0 0 9px;
     height:259px;
     width:50%;
-    padding: 4rem 0 0 4rem;
+    padding: 4rem 0 0 4.1rem;
   }
 
   .signup-button {
